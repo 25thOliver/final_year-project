@@ -5,11 +5,11 @@ function Footer() {
     <footer className="bg-gray-800 p-4 text-gray-300">
       <div className="flex justify-between items-center">
         <div>
-          &copy; {currentYear} Kenya Bank Search App by Rachel Karanja. All
+          &copy; {currentYear} Kenya Bank Search App by Samwel Oliver. All
           rights reserved.
         </div>
         <div className="flex items-center space-x-4">
-          <a href="https://github.com/KWangechi">
+          <a href="https://github.com/25thOliver">
             <img
               src="https://1000logos.net/wp-content/uploads/2018/11/GitHub-icon4.png"
               alt="GitHub Logo"
@@ -17,7 +17,7 @@ function Footer() {
               height="20"
             />
           </a>
-          <a href="https://twitter.com/Keshi72438439">
+          <a href="https://x.com/Oliv3r_Sami?t=qndeE8hidDsWBmmVz8fIhQ&s=09">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               x="0px"

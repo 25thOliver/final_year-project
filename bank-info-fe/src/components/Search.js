@@ -14,11 +14,11 @@ function Search({ searchTerm, setSearchTerm }) {
       <div className="font-semibold text-4xl text-center text-[#695958] pt-5">
         Kenya Bank Code Search
       </div>
-      <div className="bg-[#B6C8A9] text-center py-8 mt-5 shadow-sm">
+      <div className="bg-[#F1E3C1] text-center py-8 mt-5 shadow-sm">
         <h4 className="italic text-md mt-4 text-[#695958] mx-[5%]">
-          Search for all the Banks in Kenya, their codes, their branches info,
-          and additional details such as Opening Hours. You can filter by Bank
-          Name and Location.
+        Look up all of Kenyan Banks, together with their Codes, Branch Locations, 
+        and other information like Opening Hours. 
+        You have the option to filter by Location and Bank Name.
         </h4>
         <div className="mt-6 flex justify-center">
           <div className="relative md:w-1/2 items-center w-full sm:w-auto mx-[5%]">
@@ -63,7 +63,7 @@ function Search({ searchTerm, setSearchTerm }) {
               id="username"
               value={searchTerm}
               onChange={onSearchChange}
-              placeholder="Search Bank/Branch Name... e.g KCB"
+              placeholder="Search Bank/Branch Name... e.g EQUITY"
               className="appearance-none border-2 border-gray-300 hover:border-gray-400 transition-colors rounded-md w-full py-4 px-3 pl-10 pr-10 text-gray-800 leading-tight focus:outline-none focus:ring-2 focus:ring-[#695958] focus:border-[#695958] focus:shadow-outline"
             />
           </div>
